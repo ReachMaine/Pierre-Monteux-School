@@ -1,0 +1,17 @@
+/* Colors ---------------------------------------------- */
+// Font Colors
+$linkcolor: #a62425;
+$titleFontColor: #a62425;
+
+// Background colors: 
+
+$bkgoundContent: #FFFFFF; // 
+$menuBarbkg: #D14719; //
+
+/* Typography ------------------------------------------ */
+
+/* -------- Reach Branding --------------------------*/
+.reach-logo:before {
+	content: url('images/reach-favicon.png');
+	padding-right: 3px;
+}

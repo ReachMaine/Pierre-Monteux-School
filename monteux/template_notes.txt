@@ -1,0 +1,1 @@
+Used the After header HTML in the theme options Only on the homepage. (header.php)

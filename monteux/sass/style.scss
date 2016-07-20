@@ -1,0 +1,55 @@
+/*
+Theme Name: Monteux
+Description: This is a Flatsome child theme for Pierre Monteux School
+Template: flatsome
+Version: 2.5.6
+*/
+ 
+@import url("../flatsome/css/foundation.css");
+@import "partials/settings";
+@import "partials/print"; 
+ 
+
+/* =Theme customization starts here */
+#masthead {
+	background-size: cover; 
+}
+// gallery border of newsletters
+.pm-news-border img {
+	border: 1px solid #a9a9a9!important;
+}
+.from_the_blog_comments { // hide comments on blog shortcode 
+	display: none;
+	visibility: hidden;
+}
+aside.widget.widget_recent_entries { // give recent entries some breathing room
+	li {
+		padding-bottom: 15px;
+	}
+}
+// sidebar stuff
+.pms-boxit {
+	border: 1px solid #808080;
+	padding-top: 18px;
+}
+.pms-bottom {
+	border-bottom: 1px solid #808080;
+	padding-bottom: 20px;
+}
+.pms-topbottom {
+	border-bottom: 1px solid #808080;
+	padding-top: 10px;
+	border-top: 1px solid #808080;
+}
+#secondary {
+	aside {
+		.widget-title {
+			text-align: center;
+			padding-bottom: 2px;
+			margin-bottom: 5px;
+		}
+		.tx-div.small {
+			display: none;
+		}
+	}
+}

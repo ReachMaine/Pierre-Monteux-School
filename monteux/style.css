@@ -1,0 +1,22 @@
+@import url("../flatsome/css/foundation.css");
+/*
+Theme Name: Monteux
+Description: This is a Flatsome child theme for Pierre Monteux School
+Template: flatsome
+Version: 2.5.6
+*/
+/* Colors ---------------------------------------------- */
+/* Typography ------------------------------------------ */
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@media print {
+  body #masthead a[href]:after, body #site-navigation a[href]:after, body #menu-top-nav-and-footer-nav a[href]:after, body #menu-footer a[href]:after {
+    content: ""; } }
+/* =Theme customization starts here */
+.from_the_blog_comments {
+  display: none;
+  visibility: hidden; }
+
+aside.widget.widget_recent_entries li {
+  padding-bottom: 15px; }
