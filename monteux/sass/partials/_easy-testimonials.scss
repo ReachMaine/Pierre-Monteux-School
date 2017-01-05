@@ -1,0 +1,19 @@
+.testimonials { //testimonials page
+  column-count: 2;
+  span.testimonial-client {
+    font-size: 80%;
+  }
+  blockquote {
+    font-style: normal;
+  }
+}
+
+.easy_t_single_testimonial {
+  padding: 10px;
+  margin: 20px 0px;
+  background-color: #eaeaea;
+}
+
+.testimonial_author {
+  margin-bottom: 0px;
+}

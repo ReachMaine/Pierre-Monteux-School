@@ -8,6 +8,7 @@ Version: 2.5.6
 //@import url("../flatsome/css/foundation.css");
 @import "partials/settings";
 @import "partials/print";
+@import "partials/easy-testimonials";
 
 
 /* =Theme customization starts here */
@@ -54,3 +55,5 @@ aside.widget.widget_recent_entries { // give recent entries some breathing room
 		}
 	}
 }
+
+@import "partials/media";

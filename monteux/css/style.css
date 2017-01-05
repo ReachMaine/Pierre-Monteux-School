@@ -17,13 +17,28 @@ Version: 2.5.6
 @media print {
   body #masthead a[href]:after, body #site-navigation a[href]:after, body #menu-top-nav-and-footer-nav a[href]:after, body #menu-footer a[href]:after {
     content: ""; } }
+.testimonials {
+  column-count: 2; }
+  .testimonials span.testimonial-client {
+    font-size: 80%; }
+  .testimonials blockquote {
+    font-style: normal; }
+
+.easy_t_single_testimonial {
+  padding: 10px;
+  margin: 20px 0px;
+  background-color: #eaeaea; }
+
+.testimonial_author {
+  margin-bottom: 0px; }
+
 /* =Theme customization starts here */
 #masthead {
   background-size: cover;
   background: url(./images/header_image.jpg); }
 
 .pm-news-border img {
-  border: 1px solid darkgrey !important; }
+  border: 1px solid #a9a9a9 !important; }
 
 .from_the_blog_comments {
   display: none;
@@ -51,3 +66,25 @@ aside.widget.widget_recent_entries li {
   margin-bottom: 5px; }
 #secondary aside .tx-div.small {
   display: none; }
+
+/* ===================================================== */
+/* Media Queries --------------------------------------- */
+/* ===================================================== */
+/* Foundation Block Grids for above small breakpoint */
+/***************------------- 15. MOBILE -------------*****************/
+@media only screen and (max-width: 48em) {
+  #masthead {
+    height: inherit !important; }
+    #masthead .header-container {
+      display: block; }
+    #masthead #right-logo-phone {
+      display: block; }
+      #masthead #right-logo-phone .eai-right-image {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        float: none; } }
+/* Medium Displays: 768px - 1279px */
+/* Styles for screens that are atleast 768px; */
+/* Large Displays: 1280px - 1440px */
+/* X-Large Displays: 1400px and up */
+/* breakpoints for ux_banners */
