@@ -43,6 +43,12 @@ aside.widget.widget_recent_entries { // give recent entries some breathing room
 	padding-top: 10px;
 	border-top: 1px solid #808080;
 }
+// posts
+
+article.post .article-inner footer.entry-meta {
+	display: none;
+}
+// sidebar
 #secondary {
 	aside {
 		.widget-title {
