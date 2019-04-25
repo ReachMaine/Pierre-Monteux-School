@@ -11,15 +11,6 @@ Version: 2.5.6
   content: url("images/reach-favicon.png");
   padding-right: 3px; }
 
-/* ----------- general styling ---------- */
-.msmf-boxed-pp {
-  padding: 30px 10px 0 10px;
-  border: 1px solid #9c0000;
-  border-radius: 10px;
-  text-align: center; }
-  .msmf-boxed-pp label {
-    font-size: 1.2em; }
-
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
@@ -66,9 +57,6 @@ aside.widget.widget_recent_entries li {
   border-bottom: 1px solid #808080;
   padding-top: 10px;
   border-top: 1px solid #808080; }
-
-article.post .article-inner footer.entry-meta {
-  display: none; }
 
 #secondary aside .widget-title {
   text-align: center;

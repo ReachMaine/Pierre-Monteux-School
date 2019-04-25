@@ -3,15 +3,27 @@
 $linkcolor: #a62425;
 $titleFontColor: #a62425;
 
-// Background colors: 
+// Background colors:
 
-$bkgoundContent: #FFFFFF; // 
+$bkgoundContent: #FFFFFF; //
 $menuBarbkg: #D14719; //
-
+$msmf-red: #9c0000;
 /* Typography ------------------------------------------ */
 
 /* -------- Reach Branding --------------------------*/
 .reach-logo:before {
 	content: url('images/reach-favicon.png');
 	padding-right: 3px;
+}
+
+/* ----------- general styling ---------- */
+.msmf-boxed-pp {
+	padding: 30px 10px 0 10px;
+	border: 1px solid $msmf-red;
+	border-radius: 10px;
+	text-align: center;
+	label {
+		font-size: 1.2em;
+
+	}
 }
