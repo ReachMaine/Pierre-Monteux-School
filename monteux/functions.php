@@ -1,11 +1,11 @@
 <?php
-	require_once(get_stylesheet_directory().'/custom/language.php'); 
-	require_once(get_stylesheet_directory().'/custom/flat.php'); 
+	require_once(get_stylesheet_directory().'/custom/language.php');
+	require_once(get_stylesheet_directory().'/custom/flat.php');
 
-	add_action('after_setup_theme', ea_setup);
+	add_action('after_setup_theme', 'ea_setup');
 	/**  ea_setup
 	*  init stuff that we have to init after the main theme is setup.
-	* 
+	*
 	*/
 	function ea_setup() {
 	 /* do stuff ehre. */
@@ -26,10 +26,10 @@
 	function mysite_opengraph_image_size($val) {
 		return 'facebook_share';
 	}
-	
-		// contact form 7 fallback for date field 
+
+		// contact form 7 fallback for date field
 	add_filter( 'wpcf7_support_html5_fallback', '__return_true' );
-	
+
 	/*****  change the login screen logo ****/
 	function my_login_logo() { ?>
 		<style type="text/css">
